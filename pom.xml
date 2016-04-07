@@ -12,7 +12,7 @@
 
   <repositories>
      <repository>
-       <id>prime-repo</div>
+       <id>prime-repo</id>
        <name>Prime Repo</name>
        <url>http://repository.primefaces.org</url>
      </repository>
@@ -21,7 +21,7 @@
   <dependencies>
     <!-- PrimeFaces -->
     <dependency>
-      <groupId>org.primefaces</group>
+      <groupId>org.primefaces</groupId>
       <artifactId>primefaces</artifactId>
       <version>5.3</version>
     </dependency>
@@ -31,7 +31,7 @@
       <groupId>com.sun.faces</groupId>
       <artifactId>jsf-api</artifactId>
       <version>2.1.11</version>
-    <dependency>
+    </dependency>
 
     <dependency>
       <groupId>com.sun.faces</groupId>
@@ -60,9 +60,9 @@
     <!-- EL -->
     <dependency>
       <groupId>org.glassfish.web</groupId>
-      <artifactId>e1-impl<artifactId>
+      <artifactId>el-impl</artifactId>
       <version>2.2</version>
-    </depencency>
+    </dependency>
   </dependencies>
 
   <build>
